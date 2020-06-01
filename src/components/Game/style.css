@@ -1,0 +1,50 @@
+.wrapper-game {
+  text-align: center;
+  background-color: #2fc4b2;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  padding: 8vh 10vw;
+}
+.players {
+  text-transform: uppercase;
+  font-family: 'Jaldi', sans-serif;
+  font-size: calc(20px + 3vmin);
+}
+.game-chars {
+  font-size: calc(10px + 12vmin);
+}
+
+.btn-move {
+  background: none;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-move:active {
+  background-color: #12947f;
+}
+
+.btn-reset {
+  border: none;
+  background-color: #ffffff;
+  color: #2fc4b2;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 10px 30px;
+  transition: background-color 1s, color 1s;
+}
+
+.btn-reset:active {
+  background-color: #12947f;
+  color: #ffffff;
+}
+
+.btn-move:focus,
+.btn-reset:focus {
+  border: none;
+  outline: 0;
+}

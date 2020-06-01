@@ -1,0 +1,31 @@
+.wrapper-contact {
+  background-color: #e71414;
+  color: white;
+  min-height: 53vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  padding: 8vh 10vw;
+}
+
+.wrapper-contact > .row:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #12947f;
+  text-decoration: none;
+}
+
+.contact-icon {
+  font-size: 4rem;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-left: 5px;
+}

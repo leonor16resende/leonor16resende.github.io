@@ -1,0 +1,198 @@
+.rounded-image {
+  border-radius: 50% !important;
+}
+
+.item-dates {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.item-institution {
+  font-weight: 800;
+}
+
+.item-position {
+  font-size: 1.2rem;
+}
+
+.item-body {
+  color: #2fc4b2;
+  font-weight: 600;
+}
+
+/*
+  This CSS was adapted from this source: 
+  https://github.com/BlackrockDigital/startbootstrap-agency
+
+  All the credits belong to the above source
+*/
+
+.timeline {
+  width: 100%;
+  position: relative;
+  padding: 0;
+  list-style: none;
+}
+.timeline:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 40px;
+  width: 2px;
+  margin-left: -1.5px;
+  content: '';
+  background-color: #e9ecef;
+}
+.timeline > li {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 50px;
+}
+.timeline > li:after,
+.timeline > li:before {
+  display: table;
+  content: ' ';
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li .item-panel {
+  position: relative;
+  float: right;
+  width: 100%;
+  padding: 0 20px 0 100px;
+  text-align: left;
+}
+.timeline > li .item-panel:before {
+  right: auto;
+  left: -15px;
+  border-right-width: 15px;
+  border-left-width: 0;
+}
+.timeline > li .item-panel:after {
+  right: auto;
+  left: -14px;
+  border-right-width: 14px;
+  border-left-width: 0;
+}
+.timeline > li .item-image {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  margin-left: 0;
+  text-align: center;
+  color: white;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
+  background-color: #2fc4b2;
+}
+.timeline > li .item-image h4 {
+  font-size: 10px;
+  line-height: 40px;
+  margin-top: 12px;
+}
+.timeline > li.item-right > .item-panel {
+  float: right;
+  padding: 0 20px 0 100px;
+  text-align: left;
+}
+.timeline > li.item-right > .item-panel:before {
+  right: auto;
+  left: -15px;
+  border-right-width: 15px;
+  border-left-width: 0;
+}
+.timeline > li.item-right > .item-panel:after {
+  right: auto;
+  left: -14px;
+  border-right-width: 14px;
+  border-left-width: 0;
+}
+.timeline > li:last-child {
+  margin-bottom: 0;
+}
+.timeline .item-heading h4 {
+  margin-top: 0;
+  color: inherit;
+}
+
+.timeline .item-body > ul,
+.timeline .item-body > p {
+  margin-bottom: 0;
+  font-size: 0.8em;
+}
+
+@media (min-width: 768px) {
+  .timeline:before {
+    left: 50%;
+  }
+  .timeline > li {
+    min-height: 100px;
+    margin-bottom: 100px;
+  }
+  .timeline > li .item-panel {
+    float: left;
+    width: 41%;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+  }
+  .timeline > li .item-image {
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+  }
+  .timeline > li .item-image h4 {
+    font-size: 13px;
+    line-height: 50px;
+    margin-top: 16px;
+  }
+  .timeline > li.item-right > .item-panel {
+    float: right;
+    padding: 0 30px 20px 20px;
+    text-align: left;
+  }
+}
+@media (min-width: 992px) {
+  .timeline > li {
+    min-height: 150px;
+  }
+  .timeline > li .item-panel {
+    padding: 0 20px 20px;
+  }
+  .timeline > li .item-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+  }
+  .timeline > li .item-image h4 {
+    font-size: 18px;
+    line-height: 75px;
+    margin-top: 30px;
+  }
+  .timeline > li.item-right > .item-panel {
+    padding: 0 20px 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .timeline > li {
+    min-height: 170px;
+  }
+  .timeline > li .item-panel {
+    padding: 0 20px 20px 100px;
+  }
+  .timeline > li .item-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+  }
+  .timeline > li .item-image h4 {
+    line-height: 85px;
+  }
+  .timeline > li.item-right > .item-panel {
+    padding: 0 100px 20px 20px;
+  }
+}

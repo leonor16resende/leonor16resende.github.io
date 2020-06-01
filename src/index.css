@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Jaldi';
+  src: local('Jaldi'), url(./fonts/Jaldi/Jaldi-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'),
+    url(./fonts/Montserrat/Montserrat-Regular.ttf) format('truetype');
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: calc(8px + 2vmin);
+  background-color: #e71414;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Jaldi', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: calc(40px + 7vmin);
+}
+
+h2 {
+  font-size: calc(30px + 7vmin);
+  margin-block-start: 0.53em;
+  margin-block-end: 0.53em;
+}
+
+h3 {
+  font-size: calc(20px + 3vmin);
+}
+
+h4 {
+  font-size: calc(10px + 3vmin);
+}
