@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.21038485.chunk.css",
+    "main.js": "/static/js/main.da54cb77.chunk.js",
+    "main.js.map": "/static/js/main.da54cb77.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.79bf7f08.js",
+    "runtime-main.js.map": "/static/js/runtime-main.79bf7f08.js.map",
+    "static/css/2.808d84c1.chunk.css": "/static/css/2.808d84c1.chunk.css",
+    "static/js/2.22fd54d9.chunk.js": "/static/js/2.22fd54d9.chunk.js",
+    "static/js/2.22fd54d9.chunk.js.map": "/static/js/2.22fd54d9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.13e14a17369194ac8db49a0b1af0e689.js": "/precache-manifest.13e14a17369194ac8db49a0b1af0e689.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.808d84c1.chunk.css.map": "/static/css/2.808d84c1.chunk.css.map",
+    "static/css/main.21038485.chunk.css.map": "/static/css/main.21038485.chunk.css.map",
+    "static/js/2.22fd54d9.chunk.js.LICENSE.txt": "/static/js/2.22fd54d9.chunk.js.LICENSE.txt",
+    "static/media/Jaldi-Bold.ttf": "/static/media/Jaldi-Bold.5f013c6e.ttf",
+    "static/media/Jaldi-Regular.ttf": "/static/media/Jaldi-Regular.f0884788.ttf",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/amsc.jpeg": "/static/media/amsc.8059fea8.jpeg",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/profile.jpg": "/static/media/profile.fa7d64ba.jpg",
+    "static/media/uom.jpg": "/static/media/uom.976760d8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79bf7f08.js",
+    "static/css/2.808d84c1.chunk.css",
+    "static/js/2.22fd54d9.chunk.js",
+    "static/css/main.21038485.chunk.css",
+    "static/js/main.da54cb77.chunk.js"
+  ]
+}
